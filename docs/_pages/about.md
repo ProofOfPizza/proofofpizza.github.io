@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+This is a blog for any sort of nerdery I am interested in. Mainly development related stuff: java, typescript, docker, aws, terraform etc. But other topics such as music theory or math might also come up... who knows ?
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I work as a programmer / test automation engineer at [InQuisitive](https://www.inquisitive.nl/). Before this, I used to work as a musician, playing, teaching and composing. Music is hard to mae a living of if the music is fun. Boring music makes more money, but ey, then it is better to make money doing something fun like solving problems aka programming. Feel free to contact me about any of the blogs here, if I can help out I will, and if we're lucky we will all learn something cool. Also if you are insterested in my services as a programmer you can of course contact me!
+
+Have fun and stay curious!

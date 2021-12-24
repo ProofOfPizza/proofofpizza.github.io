@@ -1,2 +1,0 @@
-How to taint resources when using terraform cloud
-
