@@ -60,7 +60,8 @@ plugins:
 author:
   # name   : "Chai"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Curiosity killed the cat,\nbut at least he learned something!"
+  bio    : "Curiosity killed the cat,\
+            but at least he learned something!"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -72,7 +73,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "ProofOfPizza"
     - label: "GitLab"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/ProofOfPizza"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
