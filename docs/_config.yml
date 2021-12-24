@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Chai"
+  # name   : "Chai"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Curiosity killed the cat, but at least he learned something!"
+  bio    : "Curiosity killed the cat,\nbut at least he learned something!"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -80,15 +80,12 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ProofOfPizza"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/ProofOfPizza"
 
 defaults:
   # _posts
