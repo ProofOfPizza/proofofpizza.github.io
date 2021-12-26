@@ -1,5 +1,9 @@
 How to taint resources when using terraform cloud
 nginx aws discovery service
+debugging IAM policies
+how password managers make life easier
+2FA or not ? Sometimes it really does matter!
+
 
 
 

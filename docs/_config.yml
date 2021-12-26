@@ -60,8 +60,7 @@ plugins:
 author:
   # name   : "Chai"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Curiosity killed the cat,\
-            but at least he learned something!"
+  bio    : "Curiosity killed the cat but at least he learned something!"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -95,6 +94,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
