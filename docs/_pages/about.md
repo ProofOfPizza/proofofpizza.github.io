@@ -5,7 +5,7 @@ title: "About"
 
 This is a blog for any sort of nerdery I am interested in. Mainly development related stuff: java, typescript, docker, aws, terraform etc. But other topics such as music theory or math might also come up... who knows ?
 
-I work as a programmer / test automation engineer at [InQuisitive](https://www.inquisitive.nl/). Before this, I used to work as a musician, playing, teaching and composing. It's hard to make a living from music if the music is fun. Boring music makes more money, but hey, then it is better to make money doing something fun like solving problems aka programming.
+I work as a programmer / test automation engineer and trainer at [InQuisitive](https://www.inquisitive.nl/). Before this, I used to work as a musician, playing, teaching and composing. It's hard to make a living from music if the music is fun. Boring music makes more money, but hey, then it is better to make money doing something fun like solving problems aka programming.
 
 I have strong opinions about open source, and privacy on the internet. Also just a geek about some things I like: Linux (Nixos at the moment), window managers (i3), (neo)vim.
 
