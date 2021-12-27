@@ -1,5 +1,5 @@
 ---
-title: "An easy approach to debugging IAM policies"
+title: "An easy approach to debugging IAM policies on AWS"
 categories:
   - tech
 tags:
