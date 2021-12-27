@@ -45,6 +45,8 @@ I used to think "Well, chances of me getting hacked are very small. I am not an 
 
 Let me conclude with this: The risks are not equal everywhere, be smart about it. And do yourself a favour and take an hour Monday morning to set up a password manager and 2FA for the important accounts. It may save you from serious debts, legal issues or loss of employment. And now, once you have started thinking about this, it will bring back the comfort of a good night's rest and ease of mind!
 
+For anyone involved with creating users, and roles in AWS: please have a look at this simple solution written up by [Radish Logic][radish] to enforce MFA for IAM users!
+
 Enjoy the rest of the holidays, and have a great, safe and secure 2022!
 
 [mj]: https://youtu.be/BWf-eARnf6U?t=172
@@ -53,3 +55,4 @@ Enjoy the rest of the holidays, and have a great, safe and secure 2022!
 [lost]: https://www.reddit.com/r/aws/comments/ro670s/i_woke_up_to_a_bill_of_2557536_usd/?utm_source=share&utm_medium=web2x&context=3
 [also-lost]:   https://www.reddit.com/r/aws/comments/rhte00/aws_account_hacked_aws_wants_me_to_pay_bill/?utm_source=share&utm_medium=web2x&context=3
 [last-post]: https://www.reddit.com/r/aws/comments/rocp33/mods_can_we_get_a_sticky_post_telling_anyone_that/?utm_source=share&utm_medium=web2x&context=3
+[radish]: https://www.radishlogic.com/aws/require-multi-factor-authentication-mfa-for-iam-user-in-aws/
