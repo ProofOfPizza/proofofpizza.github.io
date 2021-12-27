@@ -1,9 +1,14 @@
-How to taint resources when using terraform cloud
 nginx aws discovery service
 debugging IAM policies
 how password managers make life easier
-2FA or not ? Sometimes it really does matter!
+nixos setup
+lorri + nixos
+docker for dev setup
 
+
+================================================
+2FA or not ? Sometimes it really does matter!
+How to taint resources when using terraform cloud
 
 
 
