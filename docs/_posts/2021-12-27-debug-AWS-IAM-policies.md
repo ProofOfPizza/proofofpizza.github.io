@@ -3,8 +3,8 @@ title: "An easy approach to debugging IAM policies"
 categories:
   - tech
 tags:
-  - AWS
   - IAM
+  - AWS
   - infrastructure
   - infrastructure-as-code
   - terraform
