@@ -15,7 +15,7 @@ So this should be a friendly reminder [for you and for me and ... ][mj] to think
 Well then this reminder is for you. Now I get it, sometimes it seems to be so irrelevant... why would you need an account for a cooking site in the first place??
 I used to think "Well, chances of me getting hacked are very small. I am not an interesting target." And for may things this is true: I am not. However, my passwords could still be included in some greater hack such as "bank XXX was hacked", "facebook passwords hacked" etc. And in some cases I AM a very interesting target. If I were a hacker, I would go looking for people doing tutorials, and courses on these sites. They will many times want to get on with their learning, and disregard security measures (Ever find yourself thinking: "Just for now, I'll fix it later" or "I will delete the account as soon as I am done" ?). Or cooking sites and so on, because those would probably be easier to hack then the heavily secured banks and government websites, but chances are that out of 1000 leaked logins there will be a few people that used the same passwords for other sites. Which can be very very risky and costly!
 
-So here is that reminder again: use long, difficult, randomly generated passwords. Never repeat them, ever. And do not store them in a plain text file. This seems like a huge hassle, and very difficult. But we're in luck: smart people have made password managers for this. Setting on up like [keepass][keepass] or [last pass][lastpass] is pretty easy. Most of them support Windows MacOS Linux as well as mobile platforms. They will solve ALL of these problems:
+So here is that reminder again: use long, difficult, randomly generated passwords. Never repeat them, ever. And do not store them in a plain text file. This seems like a huge hassle, and [security is very difficult][difficult]. But we're in luck: smart people have made password managers for this. Setting on up like [keepass][keepass] or [last pass][lastpass] is pretty easy. Most of them support Windows MacOS Linux as well as mobile platforms. They will solve ALL of these problems:
 1. You only ever need to remember ONE password (make it a good one!)
 2. Logging in is as easy as a simple copy paste, or it will even auto fill it for you!
 3. Your passwords are stored with encryption
@@ -50,6 +50,7 @@ For anyone involved with creating users, and roles in AWS: please have a look at
 Enjoy the rest of the holidays, and have a great, safe and secure 2022!
 
 [mj]: https://youtu.be/BWf-eARnf6U?t=172
+[difficult]: https://www.youtube.com/watch?v=HBTW5Ru_Itk
 [last-pass]: https://www.lastpass.com/
 [keepass]: https://keepass.info/
 [lost]: https://www.reddit.com/r/aws/comments/ro670s/i_woke_up_to_a_bill_of_2557536_usd/?utm_source=share&utm_medium=web2x&context=3
