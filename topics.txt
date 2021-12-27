@@ -4,6 +4,7 @@ how password managers make life easier
 nixos setup
 lorri + nixos
 docker for dev setup
+embed gif without the crap
 
 
 ================================================
