@@ -122,7 +122,7 @@ comments:
   staticman:
     branch    : "master"
     # endpoint  : https://proofofpizza-sm-bot.herokuapp.com/v2/entry/ProofOfPizza/proofofpizza.github.io/master/comments
-    endpoint  : https://apistaticman.net/v3/entry/github/
+    endpoint  : https://api.staticman.net/v3/entry/github/
 
 # reCaptcha:
 #   siteKey: 6LcO_9UdAAAAANK7B4dkafQyG4HXmU0ygEggk2u2
