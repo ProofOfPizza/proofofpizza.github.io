@@ -120,7 +120,7 @@ repository  : ProofOfPizza/proofofpizza.github.io
 comments:
   provider  : "staticman_v2"
   staticman:
-    branch    : "master"
+    branch    : "main"
     # endpoint  : https://proofofpizza-sm-bot.herokuapp.com/v2/entry/ProofOfPizza/proofofpizza.github.io/master/comments
     endpoint  : https://api.staticman.net/v3/entry/github/
 
