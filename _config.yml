@@ -116,6 +116,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+url: https://calzone.proofofpizza.com
 repository  : ProofOfPizza/proofofpizza.github.io
 comments:
   provider  : "staticman_v2"
