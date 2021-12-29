@@ -5,5 +5,6 @@ pkgs.mkShell {
     ruby
     dig
     jekyll
+    heroku
   ];
 }
