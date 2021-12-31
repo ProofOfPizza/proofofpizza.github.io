@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://calzone.proofofpizza.com/sitemap.xml
