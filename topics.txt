@@ -1,16 +1,18 @@
 nginx aws discovery service
-debugging IAM policies
-how password managers make life easier
 nixos setup
 lorri + nixos
 docker for dev setup
 embed gif without the crap
-creativity
+setup maven-denpendency-check
+encrypt files in git with pgp
 
 
 ================================================
+using keepass programmatically
+creativity
 2FA or not ? Sometimes it really does matter!
 How to taint resources when using terraform cloud
+debugging IAM policies
 
 
 
