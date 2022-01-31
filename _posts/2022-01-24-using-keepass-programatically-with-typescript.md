@@ -5,6 +5,7 @@ categories:
   - tutorial
 tags:
   - coding
+  - devops
   - programming
   - typescript
   - keepass

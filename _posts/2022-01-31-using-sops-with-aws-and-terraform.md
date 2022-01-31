@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - security
+  - devops
   - sops
   - programming
   - terraform

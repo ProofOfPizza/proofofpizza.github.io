@@ -4,6 +4,7 @@ categories:
   - tech
 tags:
   - infrastructure
+  - devops
   - infrastructure-as-code
   - terraform
 ---
