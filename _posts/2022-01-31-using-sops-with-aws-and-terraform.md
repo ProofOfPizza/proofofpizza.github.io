@@ -136,7 +136,7 @@ creation_rules:
     aws_profile: KMS_PROD_USER
 ```
 
-What does this mean ? It means that any files matching the regex `.*config/test/.*` meaning all files inside `config/test` in this case, will be encrypted using the key `arn:aws:kms:eu-central-1:640753212234:key/f9024130-ba9c-458d-ba4a-ca05b06f6f2c`. And thus that only those with access to that key, and see and edit those files.
+What does this mean ? It means that any files matching the regex `.*config/test/.*` meaning all files inside `config/test` in this case, will be encrypted using the key `arn:aws:kms:eu-central-1:640753212234:key/f9024130-ba9c-458d-ba4a-ca05b06f6f2c`. And thus only those with access to that key can and see and edit those files.
 
 We suppose for instance that you just joined the team, and got your keys. If you look into the files you will see that for any JSON, YAML, .env file the values are encrypted, and for instance the ssh keys are encrypted as binaries.
     You can decrypt any file in place using `sops -d -i filename`, -d for decrypt and -i for in-place. But then you would have to remember to encrypt them later, and who wants to do that ? So the developers of sops made it easy for us. We just run: `sops filename` and it will decrypt it in memory and open it in our default editor (the one specified in the `$EDITOR` environment variable). Now we see the file in cleartext, we can edit and save it, and when we exit the file it gets reencrypted and saved to the file. How awesome is that !?
