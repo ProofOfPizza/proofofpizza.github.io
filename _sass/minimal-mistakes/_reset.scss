@@ -81,7 +81,7 @@ a {
 /* Apply focus state */
 
 a:focus {
-  @extend %tab-focus;
+  @extend %tab-focus !optional;
 }
 
 /* Remove outline from links */
