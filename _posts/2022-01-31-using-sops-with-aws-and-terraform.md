@@ -74,7 +74,7 @@ The terraform code's layout is pretty straightforward:
 - `policies/*.json` are policy documents for the users. Here the allowed actions and resources are specified. To avoid circular dependencies the users have rights on all keys `*` and then the keys have only specific users assigned to them. Otherwise we would have to first create the keys, which would require us to first create the users, which would require us to first create the keys ... well you get the point... or actually, that point never gets fully made :)
 - `key-policy.tpl` leverages the `.tpl` terraform template format. It is basically a json file with interpolations. We use the terraform `jsonencode` function to interpolate more complex values than just strings. In this case lists of users:
 {% include code-header.html %}
-    "Principal": {
+      "Principal": {
     "AWS": ${jsonencode(key_users)}
     },
 
@@ -90,7 +90,6 @@ The KMS keys have a policy that defines who has which rights on them, this also 
 locals {
   my_aws_user = "arn:aws:iam::12345678999:user/iam_user_name"
 }
-{: #code-example-1}
 ```
 You will have to replace it with your user's ARN. You can get it from the cli by running `aws sts get-caller-identity`.
 
@@ -145,22 +144,22 @@ We suppose for instance that you just joined the team, and got your keys. If you
 Now we assumed we came in the team just fresh, but we got both the prod and test keys. In a real situation we might be developers with only access to the test env. To simulate this edit `~/.aws/credentials` and change a profile name:
 {% include code-header.html %}
 ```
-    [KMS_PROD_USER_XXX]
-    aws_access_key_id=AKIAZKL66TFJAW7AGEVG
-    aws_secret_access_key=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
+[KMS_PROD_USER_XXX]
+aws_access_key_id=AKIAZKL66TFJAW7AGEVG
+aws_secret_access_key=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
 ```
 
 Now go into `config/test` and run `sops default.yaml`. No problem, right? Now try the same in `config/prod`. You will probably see something like:
 
 ```
-    Failed to get the data key required to decrypt the SOPS file.
+Failed to get the data key required to decrypt the SOPS file.
 
-    Group 0: FAILED
-    arn:aws:kms:eu-central-1:640753212234:key/02b01d66-35ac-4f24-a23c-87684b6cc01b: FAILED
-    - | Error decrypting key: NoCredentialProviders: no valid
-    | providers in chain. Deprecated.
-    | 	For verbose messaging see
-    | aws.Config.CredentialsChainVerboseErrors
+Group 0: FAILED
+arn:aws:kms:eu-central-1:640753212234:key/02b01d66-35ac-4f24-a23c-87684b6cc01b: FAILED
+- | Error decrypting key: NoCredentialProviders: no valid
+| providers in chain. Deprecated.
+| 	For verbose messaging see
+| aws.Config.CredentialsChainVerboseErrors
 ```
 
 Pretty neat right ?
@@ -228,13 +227,13 @@ Now let's say you did an awsesome job and are now ready to leave the team on to 
 1. Edit `locals.tf` and from the line 46:
 
 ```
-      policy = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["test"].arn, aws_iam_user.user["prod"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
+policy = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["test"].arn, aws_iam_user.user["prod"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
 ```
 
 We remove the test user so it becomes:
 {% include code-header.html %}
 ```
-      policy = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["prod"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
+policy = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["prod"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
 ```
 
 2. Edit `providers.tf` and `profile = KMS_ADMIN`
