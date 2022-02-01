@@ -48,6 +48,7 @@ To install the repo simply go to the [repo][git] in your browser and click `fork
 Then run `cd terraform && terraform init`. This should get you the providers and initialize the terraform project. If you run into issues here please verify your terraform version with `terraform --version`. In the file `providers.tf` the required version is specified: `required_version = "~> 1.1.0"`. Match this with your version if necessary.
 
 We also see this block specifying the aws provider:
+{% include code-header.html %}
 ```
 provider "aws" {
   region  = "eu-central-1"
@@ -72,12 +73,10 @@ The terraform code's layout is pretty straightforward:
 - `locals.tf` contains those value definitions. The values for the three users and the two keys we create are found here.
 - `policies/*.json` are policy documents for the users. Here the allowed actions and resources are specified. To avoid circular dependencies the users have rights on all keys `*` and then the keys have only specific users assigned to them. Otherwise we would have to first create the keys, which would require us to first create the users, which would require us to first create the keys ... well you get the point... or actually, that point never gets fully made :)
 - `key-policy.tpl` leverages the `.tpl` terraform template format. It is basically a json file with interpolations. We use the terraform `jsonencode` function to interpolate more complex values than just strings. In this case lists of users:
-    ```
+{% include code-header.html %}
     "Principal": {
     "AWS": ${jsonencode(key_users)}
     },
-
-    ```
 
 If you want to learn more about all the options you can set for keys, and what they mean you can read more in the [AWS docs][aws-kms-docs].
     To learn more about how to specify these settings in terraform read the docs for [iam_users][terraform-iam-users-docs] and [kms_keys][terraform-kms-docs] in terraform.
@@ -85,10 +84,13 @@ If you want to learn more about all the options you can set for keys, and what t
 ## Terraform apply and creating the aws resources
 
 The KMS keys have a policy that defines who has which rights on them, this also goes for the actions create, update and delete key. For this reason we should add the IAM user that we use for terraform to the KMS keys. Otherwise terraform will be unable to manage them! In `locals.tf` we see:
+
+{% include code-header.html %}
 ```
 locals {
   my_aws_user = "arn:aws:iam::12345678999:user/iam_user_name"
 }
+{: #code-example-1}
 ```
 You will have to replace it with your user's ARN. You can get it from the cli by running `aws sts get-caller-identity`.
 
@@ -98,7 +100,7 @@ If it all looks good to you you can run `terraform apply` and when asked type `y
 ## Setup profiles for AWS cli
 
 Now we can use these users to test SOPS, but for this we need to setup the aws cli because SOPS relies on the users being present in the aws cli configuration. AWS cli credentials are kept in a file at `~/.aws/credentials`. You can edit it with your preferred text editor and add the following sections:
-
+{% include code-header.html %}
 ```
 [KMS_ADMIN]
 aws_access_key_id=AKIAZKL66TFJJ3EX6UVA
@@ -123,7 +125,7 @@ If this all works we are now ready to finally use SOPS and see the magic!
 
 We can easily just encrypt and decrypt files in place specifying the kms key in the command line.... but why would we ? The real use is for projects where we work together and want to store our configs in git and so on. So let's just get directly to a more realistic configuration.
 SOPS looks recursively in our directory path for a file called `.sops.yaml`. In this file we can precisely specify which files or paths we want to encrypt, and with which keys. For this project our configuration looks like this:
-
+{% include code-header.html %}
 ```
 creation_rules:
     - path_regex: .*config/test/.*
@@ -141,7 +143,7 @@ We suppose for instance that you just joined the team, and got your keys. If you
     You can decrypt any file in place using `sops -d -i filename`, -d for decrypt and -i for in-place. But then you would have to remember to encrypt them later, and who wants to do that ? So the developers of sops made it easy for us. We just run: `sops filename` and it will decrypt it in memory and open it in our default editor (the one specified in the `$EDITOR` environment variable). Now we see the file in cleartext, we can edit and save it, and when we exit the file it gets reencrypted and saved to the file. How awesome is that !?
 
 Now we assumed we came in the team just fresh, but we got both the prod and test keys. In a real situation we might be developers with only access to the test env. To simulate this edit `~/.aws/credentials` and change a profile name:
-
+{% include code-header.html %}
 ```
     [KMS_PROD_USER_XXX]
     aws_access_key_id=AKIAZKL66TFJAW7AGEVG
@@ -167,7 +169,7 @@ Pretty neat right ?
 
 
 Now let's assume you were hired to actually do something. And you need to add a property, so you run `sops some.env.json` in `config/test`. You add an application url:
-
+{% include code-header.html %}
 ```
 {
   "database": {
@@ -192,13 +194,13 @@ After saving and quitting would like to see what has changed in your files compa
 ```
 
 Nope... Not very useful. But we're in luck because even this has been thought of! We create a file `.gitattributes` in the root of our project and in it we write:
-
+{% include code-header.html %}
 ```
 config/** diff=sopsdiffer
 ```
 
 This tells git that for every file matching the path `config/**`, meaning any file under this directory, we use `sopsdiffer` when we run `git diff`. But what is sopsdiffer? It is just an arbitrary name that could be anything, but we can give it some meaning by running `git config diff.sopsdiffer.textconv "sops -d"`. This command adds a bit to our git config file found in `.git.config`. It now has a part:
-
+{% include code-header.html %}
 ```
 [diff "sopsdiffer"]
 textconv = sops -d --config /dev/null
@@ -230,7 +232,7 @@ Now let's say you did an awsesome job and are now ready to leave the team on to 
 ```
 
 We remove the test user so it becomes:
-
+{% include code-header.html %}
 ```
       policy = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["prod"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
 ```

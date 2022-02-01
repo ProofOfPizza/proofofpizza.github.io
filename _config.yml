@@ -36,6 +36,11 @@ timezone: NL # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+head_scripts:
+  # - https://code.jquery.com/jquery-3.6.0.min.js
+  # - /assets/scripts/axe.js
+after_footer_scripts:
+  - /assets/scripts/copy-code.js
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
