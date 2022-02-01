@@ -8,6 +8,8 @@ tags:
   - devops
   - programming
   - typescript
+  - node
+  - javascript
   - keepass
   - testing
 ---
