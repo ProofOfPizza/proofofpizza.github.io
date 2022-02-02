@@ -82,7 +82,7 @@ author:
     #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "ProofOfPizza"
+      url: "https://github.com/ProofOfPizza/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/ProofOfPizza"

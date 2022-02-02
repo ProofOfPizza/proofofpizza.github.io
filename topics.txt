@@ -4,10 +4,13 @@ lorri + nixos
 docker for dev setup
 embed gif without the crap
 setup maven-denpendency-check
-encrypt files in git with pgp
+AWS MFA in cli
+simple budgets AWS
+
 
 
 ================================================
+encrypt files in git with sops
 using keepass programmatically
 creativity
 2FA or not ? Sometimes it really does matter!
