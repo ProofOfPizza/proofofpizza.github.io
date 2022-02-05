@@ -1,4 +1,6 @@
 ---
+header:
+  overlay_image: /assets/images/alley1.jpg
 title: "#AutomaticAlley - Kill any program anytime with ease"
 categories:
   - tech
