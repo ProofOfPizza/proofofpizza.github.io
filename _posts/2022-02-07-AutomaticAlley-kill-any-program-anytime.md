@@ -58,7 +58,7 @@ Now these have a tendency to clog up the system, or hang in zombie state somehow
 ```
 pgrep -i selenium
 ```
-Nothing! Nothing1? Unfortunately it does not work. So lets see what else we have:
+Nothing! Nothing!? Unfortunately it does not work. So lets see what else we have:
 ```
 -f, --full                use full process name to match
 ```
@@ -90,7 +90,7 @@ pkill -i -f -e selenium
 ```
 
 ## Let's now make it easier! Simple is good!
-Who wants to remember all of that, or look it up everytime? Not us smart (lazy) kids!
+Who wants to remember all of that, or look it up every time? Not us smart (lazy) kids!
 So now, depending on your shell we have something like a `.zshrc` or `.bashrc` usually in our home directory.
 In it we want to make an alias, so we add a line it:
 {% include code-header.html %}
