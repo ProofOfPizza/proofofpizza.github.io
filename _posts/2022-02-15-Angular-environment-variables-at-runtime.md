@@ -154,7 +154,52 @@ So for now, we do not do anything too complex with our configuration variable, i
 Now we still have a last thing to do and that is to see that we get a feel for how we can change the config at runtime. As far as we have seen now, we have not been changing anything!
 
 For this I will assume we run our app inside of a docker container. Today I will not dive to deep into docker, but just to give a bit of info about the setup in the [repo][repo]:
-We have a dockerfile, in our case just the default `Dockerfile`. This is where we specify the build of our app. It is used to build a docker image. That image is what we want to build once, move along all our environments and maybe even ship to customers. To build the image run:
+We have a dockerfile, in our case just the default `Dockerfile`. This is where we specify the build of our app. It is used to build a docker image. That image is what we want to build once, move along all our environments and maybe even ship to customers.
+
+`Dockerfile`
+{% include code-header.html %}
+```
+FROM node:14-alpine as build
+
+# copy code and run build
+WORKDIR /app
+COPY ./*.json ./
+COPY ./src ./src
+RUN npm install && npm run build
+
+# run app with nginx
+FROM nginx:stable-alpine
+COPY --from=build /app/dist/example-angular-runtime-config /usr/share/nginx/html
+COPY ./default.conf /etc/nginx/conf.d/default.conf
+WORKDIR /start
+COPY ./start-app.sh .
+CMD [ "sh", "start-app.sh" ]
+```
+
+
+If we take a closer look we see some instructions for a base image, copying files running a build, and then putting the result (everything in `/dist`) inside a nginx folder so it can be served. But where does it take our environment variables into account? In the last step. The `CMD` instruction is where the image receives what is the command to run by default when sinning up a container. In this case, and that is a fairly common pattern it is running a small shell script `start-app.sh`. Lets have a look:
+{% include code-header.html %}
+```
+#/bin/sh
+if [ "${ENVIRONMENT}" = "prod" ]
+then
+  echo "starting app prod"
+  mv /usr/share/nginx/html/config/config.prod.js /usr/share/nginx/html/config/config.js
+elif [ "${ENVIRONMENT}" = "test" ]
+then
+  echo "starting app test"
+  mv /usr/share/nginx/html/config/config.test.js /usr/share/nginx/html/config/config.js
+else
+  echo "starting app default / local"
+fi
+nginx -g "daemon off;"
+```
+
+Also pretty straight forward: We check for an environment variable called `ENVIRONMENT` and see if it is either `prod`, `test` or anything else. Then if necessary it overwrites `config.js` with the prod or test version. When that is done it instructs nginx to serve our app. Pretty neat, now let's see it in action!
+
+## Let's build once, and run ...
+
+To build the image run:
 {% include code-header.html %}
 ```
 docker build -t amazing-app . # Mind the dot in the end!
@@ -168,7 +213,7 @@ When you're ready for the magic, run:
 docker run -p 4200:4200 -d --env ENVIRONMENT=local amazing-app
 ```
 
-This command tells docker to run a container, bind the port 4200 in the container to 4200 on our machine, run in detached mode (so we can easily close it and it does not block our terminal), and passed it a configuration variable `ENVIRONMENT=local`. Lastly we specified the image that we want to use to create our container: `amazing-app`.
+This command tells docker to run a container, bind the port 4200 in the container to 4200 on our machine, run in detached mode (so we can easily close it and it does not block our terminal), and pass it an environment variable `ENVIRONMENT=local`. Lastly we specified the image that we want to use to create our container: `amazing-app`.
 
 Now go to your favorite browser and navigate to `http://localhost:4200` and tadaa! Is it not amazing ? Well I am sure you can build even more amazing apps than these, but it does what we want!
 
@@ -190,7 +235,7 @@ __*Tip: If you are disappointed, try a hard refresh (shift+F5) or an incognito w
 
 While we know that all out solutions can be useful and have their place, many times a bit more minimalistic solutions are preferable. It keeps our projects small, and easy to maintain. Also adding code when necessary is a normal task that is never forgotten (duh) while removing unnecessary code is much more difficult. So to keep technical debt to a minimum, be sure to avoid over engineering!
 
-I hope you liked this small demo. And if you see anything that could better, or maybe you if just completely disagree with my opinions on devops and _build once, deploy everywhere_ then please feel a warm welkcome to leave a comment or reach out!
+I hope you liked this small demo. And if you see anything that could better, or maybe you if just completely disagree with my opinions on devops and _build once, deploy everywhere_ then please feel a warm welcome to leave a comment or reach out!
 
 [repo]: https://github.com/ProofOfPizza/example-angular-runtime-config
 [spring]: https://spring.io/
