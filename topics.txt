@@ -7,7 +7,7 @@ setup maven-denpendency-check
 AWS MFA in cli
 simple budgets AWS
 jekyll / minimal mistakes copy paste button
-angular env on window obj
+angular app env vars build once deploy everywhere
 Automatic Alley #x -> Automate AWS MFA login cli
 Automatic Alley #x -> sopsdir
 Automatic Alley #x -> fzfi o nxo
