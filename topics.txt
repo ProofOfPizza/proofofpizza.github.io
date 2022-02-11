@@ -10,6 +10,7 @@ jekyll / minimal mistakes copy paste button
 Automatic Alley #x -> Automate AWS MFA login cli
 Automatic Alley #x -> sopsdir
 Automatic Alley #x -> fzfi o nxo
+Automatic Alley #x -> dstop
 
 
 

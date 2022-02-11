@@ -121,7 +121,7 @@ This really should be all that is necessary to load your configs at runtime! You
 
 
 I feel that it might be smart to be a bit more specific about our data structure. If you work together with more people, and or your code grows etc, it is a good practice to use stricter typings to make your code more maintainable.
-All in all just basic coding hygiene.
+If you use a code editor that is a bit smart you also get type-ahead support this way. All in all just basic coding hygiene.
 If you also feel that way you can go ahead with me and create an interface for the configs/ environment:
 
 `src/app/environment.interface.ts`
