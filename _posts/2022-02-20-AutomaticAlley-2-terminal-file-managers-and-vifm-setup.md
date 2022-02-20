@@ -10,6 +10,7 @@ tags:
   - linux
   - automation
   - vifm
+  - vim
   - file-managers
   - dotfiles
   - bash
