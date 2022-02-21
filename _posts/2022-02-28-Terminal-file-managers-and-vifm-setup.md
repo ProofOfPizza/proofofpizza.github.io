@@ -1,12 +1,10 @@
 ---
 header:
   overlay_image: /assets/images/alley1.jpg
-title: "#AutomaticAlley #2 Terminal file managers and my vifm setup"
+title: "Terminal file managers and my vifm setup"
 categories:
   - tech
-  - AutomaticAlley
 tags:
-  - automatic-alley
   - linux
   - automation
   - vifm
@@ -15,7 +13,7 @@ tags:
   - dotfiles
   - bash
 ---
-E voila: the second in the series, doubtfully dubbed #AutomaticAlley. It's where I share small bits and bites of scripts and other tiny tricks to automate away boring and error prone stuff. The things we keep doing all the time, the things that annoy us that we need to to automate especially if we want to keep working on the command line a sane practice. This time let's look at terminal managers, why would we use them ? And I'll dive into my setup of choice with Vifm.
+Another blog about some nice tools and tricks to make life easier. This time let's look at terminal managers, why would we use them ? And I'll dive into my setup of choice with Vifm. It was supposed to go in the AutomaticAlley series but it became a bit more elaborate so I'll just put it out on it's own.
 
 This is another very opionated blog, and I feel that that is what it should be when it comes to these type of tools. If you use your laptop for anything more than just plain browsing and reading emails, I think you should have a terminal file manager. That is, somehow there exist people who do things like programming, sys admin or devops stuff and they do not touch the command line / terminal. This is crazy to me, I would not know how, and even less why ...
  There are many discussions on this topic such as [this one on reddit][reddit]. Some comments include:
