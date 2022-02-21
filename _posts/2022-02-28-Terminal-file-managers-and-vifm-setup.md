@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: /assets/images/alley1.jpg
+  overlay_image: "/assets/images/header.gif"
 title: "Terminal file managers and my vifm setup"
 categories:
   - tech
