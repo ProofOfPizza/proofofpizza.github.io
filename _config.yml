@@ -37,7 +37,7 @@ include:
   - _pages
 
 head_scripts:
-  - /assets/scripts/plausible.js
+  # - /assets/scripts/plausible.js
 after_footer_scripts:
   - /assets/scripts/copy-code.js
 # Exclude from processing.
