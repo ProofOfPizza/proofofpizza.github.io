@@ -37,8 +37,7 @@ include:
   - _pages
 
 head_scripts:
-  # - https://code.jquery.com/jquery-3.6.0.min.js
-  # - /assets/scripts/axe.js
+  # - /assets/scripts/plausible.js
 after_footer_scripts:
   - /assets/scripts/copy-code.js
 # Exclude from processing.
@@ -61,6 +60,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-analytics
 
 whitelist:
   - jekyll-paginate
@@ -149,9 +149,10 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "main"
-    # endpoint  : https://proofofpizza-sm-bot.herokuapp.com/v2/entry/ProofOfPizza/proofofpizza.github.io/master/comments
     endpoint  : https://api.staticman.net/v3/entry/github/
 
-# reCaptcha:
-#   siteKey: 6LcO_9UdAAAAANK7B4dkafQyG4HXmU0ygEggk2u2
-#   secret: DLemdviX2wkvc5cYygQ4WBK9u4zfd5Vq/VZt8TiZyip8T2607NDnjj+hwHVZ3UyirGNvKHY5HqrKevKALadutNCbe4+pL9eXy/XY6sgIw8lbZIIVnvESsMOQ7XI87M2OGo05gV8FRqsJUvbdssKDiGjqBWev8zhDCM4fUrQuxuOQiiAUlA1pYLm6ij1jnmoggDt8r6Inoobjgk8IVDxu4vEzhJb2OEBgFLy6cB00v9sHT/aDnjcLrSVGe7RGGzq3ySUUZpHGfHlAdvPAL3nFREnKYZfchONjw8PECoGqlzcQRy5cZfSKc+Ynhomfr0MIOD/QhUnbkb82owavjEfFjjxuhdqup0UrujmBT2U4CM5QOJq8Qn0OoKIEwsd9gDmhElh+On5+h6Mch6tuN1Kf189lu2kVsGoAMCNKyUQtLNYb9BkUBCwiRAAB08ocut7UaDobt1ucMz1ZMlOUQZFjWghPB3Qia41VglkKrJJ3f0H4sASsTCmqp6M9V7s34MkcwZzi22nuL2wZDQijZ60dsYfBXi881s2WJ7EoSHEUY3FHv5nhOuSZTYHSfZoM8Ibd1BZcPRYN2FwCuUVbywZ/9Re9oiMstARiUDtelJgye7A451DMOHNGM6cZvcwHVGTlar8YehHupmxtoOfF0fOc0a4cfFSxARBkfgRlF96+p9Q=
+jekyll_analytics:
+  Plausible:
+    domain: 'proofofpizza.com'
+    source: 'https://plausible.io/js/plausible.js'
+
