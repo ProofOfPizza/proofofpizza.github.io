@@ -151,6 +151,10 @@ comments:
     branch    : "main"
     endpoint  : https://api.staticman.net/v3/entry/github/
 
+analytics:
+  provider: "plausible"
+
+
 # jekyll_analytics:
 #   Plausible:
 #     domain: 'https://calzone.proofofpizza.com'
