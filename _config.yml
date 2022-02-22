@@ -37,7 +37,7 @@ include:
   - _pages
 
 head_scripts:
-  # - /assets/scripts/plausible.js
+  - /assets/scripts/plausible.js
 after_footer_scripts:
   - /assets/scripts/copy-code.js
 # Exclude from processing.
@@ -151,8 +151,8 @@ comments:
     branch    : "main"
     endpoint  : https://api.staticman.net/v3/entry/github/
 
-jekyll_analytics:
-  Plausible:
-    domain: 'https://calzone.proofofpizza.com'
-    source: 'https://plausible.io/js/plausible.js'
+# jekyll_analytics:
+#   Plausible:
+#     domain: 'https://calzone.proofofpizza.com'
+#     source: 'https://plausible.io/js/plausible.js'
 
