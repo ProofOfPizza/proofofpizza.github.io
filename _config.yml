@@ -153,6 +153,6 @@ comments:
 
 jekyll_analytics:
   Plausible:
-    domain: 'calzone.proofofpizza.com'
+    domain: 'https://calzone.proofofpizza.com'
     source: 'https://plausible.io/js/plausible.js'
 
