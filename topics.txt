@@ -11,11 +11,12 @@ Automatic Alley #x -> Automate AWS MFA login cli
 Automatic Alley #x -> sopsdir
 Automatic Alley #x -> fzfi o nxo
 Automatic Alley #x -> dstop
-vifm with ueberzug
-
+jq
+plausible
 
 
 ================================================
+vifm with ueberzug
 angular app env vars build once deploy everywhere
 Automatic Alley #1 -> die
 encrypt files in git with sops

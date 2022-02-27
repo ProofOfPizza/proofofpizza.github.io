@@ -72,26 +72,23 @@ whitelist:
 author:
   # name   : "Chai"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Curiosity killed the cat but at least he learned something!"
+  bio    : "Curiosity killed the cat but at least she learned something!"
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+    - label: "Buy me a coffee"
+      icon: "fas fa-coffee"
+      url: "https://www.buymeacoffee.com/ProofOfPizza?ref=footer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ProofOfPizza/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/ProofOfPizza"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 footer:
   links:
+    - label: "Buy me a coffee"
+      icon: "./assets/images/bmc-logo.png"
+      url: "https://www.buymeacoffee.com/ProofOfPizza?ref=footer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ProofOfPizza"
@@ -110,7 +107,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -153,10 +150,3 @@ comments:
 
 analytics:
   provider: "plausible"
-
-
-# jekyll_analytics:
-#   Plausible:
-#     domain: 'https://calzone.proofofpizza.com'
-#     source: 'https://plausible.io/js/plausible.js'
-
