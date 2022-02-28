@@ -111,6 +111,8 @@ alias nxr = "nx && r"
 ```
 This way navigating in Vifm, and on the command line itself, jumping in and out of Vifm happens fast and intuitively. You would have to make some aliases that make sense for you of course, keys you hit quickly and things that require no effort to remember.
 
+***Pro tip: remember the blog about [sops](/tech/tutorial/using-sops-with-aws-and-terraform/)? Well then*** `nnoremap s   :!sops %f<cr>` ***should make your again a lot easier! But check if you do not have other mappings for*** `s` ***to avoid collisions.***
+
 ## Copying, renaming, creating files and other such fun stuff!
 Now let's have a look at some other basic things you might want to do.
 To copy a file: navigate, hit `yy` to copy to clipboard, navigate and `p` to paste. As expected.
