@@ -4,19 +4,18 @@ lorri + nixos
 docker for dev setup
 embed gif without the crap
 setup maven-denpendency-check
-AWS MFA in cli
 simple budgets AWS
 jekyll / minimal mistakes copy paste button
 Automatic Alley #x -> Automate AWS MFA login cli
 Automatic Alley #x -> sopsdir
-Automatic Alley #x -> fzfi o nxo
 Automatic Alley #x -> dstop
 jq
 plausible
-
+automatic alley AWS MFA in cli
 
 ================================================
 vifm with ueberzug
+Automatic Alley #x -> fzfi o nxo
 angular app env vars build once deploy everywhere
 Automatic Alley #1 -> die
 encrypt files in git with sops
