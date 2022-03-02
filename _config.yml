@@ -149,4 +149,4 @@ comments:
     endpoint  : https://api.staticman.net/v3/entry/github/
 
 analytics:
-  provider: "plausible"
+  provider: "custom"
