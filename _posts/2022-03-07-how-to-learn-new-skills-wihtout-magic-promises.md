@@ -27,7 +27,7 @@ While there are things to avoid, and things to strive for it is good to be as re
 ## 2. Set yourself a goal
 This is an obvious one, that you probably have seen everywhere. Goal setting. Now before you do this, let's think a bit about why that would be useful and what kind of goals are helpful. In fact is it true that any goal is better than none? Any goal is a good goal ? I beg to differ. Goals are points at the horizon. You define them, so you have something to look at, a point on which to focus so that your energy and efforts are getting aligned with achieving that goal. And that means there are do's and don'ts!
 
-A goal that is to big, or in terms of our image of the "horizon": too far.. is a goal that will not help you. It is a dream to keep dreaming about, but if you put it that far, it is past the horizon, you can not see it so it will not help you focus and thinking about the work necessary to achieve it will only paralyze and / or demotivate you.
+A goal that is too big, or in terms of our image of the "horizon": too far.. is a goal that will not help you. It is a dream to keep dreaming about, but if you put it that far, it is past the horizon, you can not see it so it will not help you focus and thinking about the work necessary to achieve it will only paralyze and / or demotivate you.
 
 A goal that is too small, or "too close", will not be interesting enough, ambitious enough, to inspire you to do the work... and therefore the unintuitive result is that goals that like this are also hard to achieve!
 
@@ -96,10 +96,10 @@ public class Monday extends Day {
 These type of associations and abstractions will come as a result of immersing yourself. It is then that your learning continues throughout the day, also when doing completely different things. It is a very powerful tool to accelerate and solidify your learning.
 
 
-We all marvel at the way kids seem to learn things effortlessly and quick. Well, did you ever try to observe how many hours of their waking day are spend going back and forth through the alphabet? How many times the repeat their multiplication tables? Riding a bike? Right: Now imagine sitting down working through your lessons in Java for as long as you see your kids doing any of these. Would you learn faster then you would now? You betcha! (But yes, please observe #3 or I will get angry comments from abandoned loved ones!)
+We all marvel at the way kids seem to learn things effortlessly and quick. Well, did you ever try to observe how many hours of their waking day are spend going back and forth through the alphabet? How many times the repeat their multiplication tables? Riding a bike? Right: Now imagine sitting down working through your lessons in Java for as long as you see your kids doing any of these. Would that make you learn faster? You betcha! (But yes, please observe #3 or I will get angry comments from abandoned loved ones!)
 
 ## 6. Fake it 'till you make it
-We generally know is important, recommend it to others, but fail to apply it to ourselves. Did you ever meet anyone from another country that is now learning your language? "Just go out and practice. Talk to people, that is a great way to learn". This is often the first advice given.
+We generally know this is important, recommend it to others, but fail to apply it to ourselves. Did you ever meet anyone from another country that is now learning your language? "Just go out and practice. Talk to people, that is a great way to learn". This is often the first advice given.
 
 So what about when you learn something new, Docker for example, then what ? Here is one of the most scary and at the same time most effective suggestions I have for you: Get involved in [Stack Overflow][so]. And I mean _involved_. Create an account. (You would be surprised how many of us techies use Stack Overflow all day every day, but never bothered to make an account!). Before anything else: take 5 minutes to familiarize yourself with the [community guidelines][guidelines]. You'll be disappointed if you don't! Then there are three things to do:
 1. Search for questions on the subject you are learning (use the filters for that). You can filter on `highest score` and you will without exception find questions and answers that will teach you something new, dive just that bit deeper into the subject you are busy with!
