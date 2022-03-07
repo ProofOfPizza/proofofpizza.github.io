@@ -12,6 +12,9 @@ Automatic Alley #x -> dstop
 jq
 plausible
 automatic alley AWS MFA in cli
+runinit script in rds db with aws lambda
+How to learn effectively
+
 
 ================================================
 vifm with ueberzug
