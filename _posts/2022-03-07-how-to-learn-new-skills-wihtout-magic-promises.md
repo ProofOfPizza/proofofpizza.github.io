@@ -6,7 +6,6 @@ categories:
   - tech
   - opinion
 tags:
-  - linux
   - problem-solving
   - programming
   - creativity
@@ -14,7 +13,7 @@ tags:
   - skills
   - devops
 ---
-"Professor", my colleague  asks me jokingly, "Why don't you write a blog about how I can learn Javascript." That got me thinking, since I am eternally learning new things, always studying something: Music theory, playing an instrument, Spanish, Turkish, Math, Programming, and the list goes on. Have I learned anything about the process of learning? Did I distill any rules that I now apply either consciously or unconsiously?
+"Professor", my colleague  asks me jokingly, "Why don't you write a blog about how I can learn Javascript." That got me thinking, since I am eternally learning new things, always studying something: Music theory, playing an instrument, Spanish, Turkish, Math, Programming, and the list goes on. Have I learned anything about the process of learning? Did I distill any rules that I now apply either consciously or unconsciously?
 
 The question of how to learn is asked by many, but only few of us actually listen to the answers, and even fewer of us put them into practice. That is because even if you do all the right things, the right ways (assuming we could clearly define those) it still costs us. It takes effort, time, energy, focus. And for us working people with a life that means it takes up space in a life that is already full and something will need to give. You can learn effectively, sure, but here is the first consideration: There are no shortcuts.
 
@@ -46,12 +45,12 @@ I'll say it again, trying to learn something without creating this space, withou
 >Live as if you were to die tomorrow. Learn as if you were to live forever.
 ><cite>Mahatma Gandhi</cite>
 
-You still did not get to do all before mentioned points, so you're waiting for the right moment? Waiting until work gets calmer? Waiting until new year ? Be careful: you will do what you practice, always. So be afraid to practice procrastination! Just stop pretending you will get to it. And when you are serious about it, when you feel enthousiasctic about learning something new: do it. Sort out a way to get started and get in the game. Tweak  the other points as you go. Preparation is great, but it does not have to be perfect!
+You still did not get to do all before mentioned points, so you're waiting for the right moment? Waiting until work gets calmer? Waiting until new year ? Be careful: you will do what you practice, always. So be afraid to practice procrastination! Just stop pretending you will get to it. And when you are serious about it, when you feel enthusiastic about learning something new: do it. Sort out a way to get started and get in the game. Tweak  the other points as you go. Preparation is great, but it does not have to be perfect!
 
 ## 5. Immerse yourself
 Learning something by doing it an hour a time, two times a week is very, very hard. You will find that you are wasting a lot of time and energy bringing back up what you already learned, what you were doing. If you want to learn effectively it is much better to take a period in which you spend as much time on it as possible. Don't try to learn five things at the same time. Choose one, and immerse yourself as much as possible. This is why #3 is important!.
 
-Immersion will also speed up learning, and that will do all kinds of wonderful things: You notice you're improving which fuels enthousiasm. It can bring you to a point where the subject really becomes central in your thoughts. And while that may make you somewhat less attentive to other things, it fortifies your learning massively. Learning something is all about associations. The more associations you create in your brain, the stronger. As a simple example: Say you're learning coding, and you already know how to play some guitar. At some point, if you may get to the point that you go to rehearsal with your friends and suddenly it occurs to you that the guitar solo is just:
+Immersion will also speed up learning, and that will do all kinds of wonderful things: You notice you're improving which fuels enthusiasm. It can bring you to a point where the subject really becomes central in your thoughts. And while that may make you somewhat less attentive to other things, it fortifies your learning massively. Learning something is all about associations. The more associations you create in your brain, the stronger. As a simple example: Say you're learning coding, and you already know how to play some guitar. At some point, if you may get to the point that you go to rehearsal with your friends and suddenly it occurs to you that the guitar solo is just:
 ```
 const base_sequence = "Am Am G"
 for (let i = 1, i<=8, i++) {
@@ -114,7 +113,7 @@ On many occasions we are satisfied with knowing _something works_. "Fake it 'til
 ***Pro tip: There are many ways to put this principle into practice: Take up relevant tasks at work, create a project for yourself or with friends/colleagues, give a presentation ... .. .***
 
 ## 7. Have fun
-Learning something only so that you can enjoy it, after you have mastered it makes no sense. I repeat: No sense, at all. Why would you enjoy it when you are good at it... when you do not even enjoy it when it is a shiny new adventure ? That does not happen. So allow yourself to have fun, and when it weighs on you: take a break. Don't stop, just take a break and relax, or shift your attention on something on the side. You're frustrated because the RxJs excercise just does not seem to work no matter what you do ? Relax, take a coffee read a it on Reddit, maybe someone writes something interesting about Reactive Programming in Java (Wow is that a thing?, interesting...!). This way, you keep immersed, you keep busy... and you can because it keeps being fun!
+Learning something only so that you can enjoy it, after you have mastered it makes no sense. I repeat: No sense, at all. Why would you enjoy it when you are good at it... when you do not even enjoy it when it is a shiny new adventure ? That does not happen. So allow yourself to have fun, and when it weighs on you: take a break. Don't stop, just take a break and relax, or shift your attention on something on the side. You're frustrated because the RxJs exercise just does not seem to work no matter what you do ? Relax, take a coffee read a it on Reddit, maybe someone writes something interesting about Reactive Programming in Java (Wow is that a thing?, interesting...!). This way, you keep immersed, you keep busy... and you can because it keeps being fun!
 
 ## Conclusion
 If you hoped I had some super trick to learn anything you want in a breeze you might be a bit demoralized now. If so: I do not apologize. I did not make it that way, I am just telling it the way I see it. If you're serious about learning stuff then hopefully you found something here to inspire you to take the next step. It may not be easy, but at least it is simple; After all, if you want to get to that spot on the horizon, you can do it:
