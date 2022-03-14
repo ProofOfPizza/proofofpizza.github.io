@@ -161,7 +161,7 @@ aws_secret_access_key=someotherunreadablemumbojumboxxxxxxxxxx
 
 ## But what about MFA ?
 
-But if you have been impatient, curious or both and you set up the policy as descibed above and you tried to run the command `aws ec2 describe-instances` you probably found:
+But if you have been impatient, curious or both and you set up the policy as described above and you tried to run the command `aws ec2 describe-instances` you probably found:
 ```
 An error occurred (UnauthorizedOperation) when calling the DescribeInstances operation: You are not authorized to perform this operation.
 ```
@@ -359,7 +359,14 @@ authaws <token>
 ```
 And we can do this in any directory, wherever we are. If it runs out, after the specified time, just rerun it and *boom*, that is it! Easy as eating chocolate and safe as milk!
 
-If you have any suggestions or improvements reach out! Have a nice week!
+## Final thoughts
+There is always a conflict of interests when it comes to easy of use or comfort on the one hand and security and or privacy on the other. This can lead to very ugly situations.
+
+Some of you may recall a famous incident with a company named [digiNotar][digiNotar] that was doing great and went bankrupt in a month. This was NOT because they had not thought about security, or because they had no security measures in place. In fact they had very tight security in place. But it was just... so annoying! So they decided to make life easier with an extra cable and some settings...
+
+This was not all that was wrong but the bottom line of the story is: Security measures are only useful when people follow them, and the chances of people following them are increased greatly if it is made _easy_ for them. Therefore automation in some cases is not just to speed up things, make them easier or less error-prone, in some cases it actually _increases security_.
+
+If you have any suggestions, comments or improvements reach out! Have a nice week!
 
 
 [blog]: https://dev.to/matrixersp/how-to-use-fzf-with-ripgrep-to-selectively-ignore-vcs-files-4e27
@@ -367,3 +374,4 @@ If you have any suggestions or improvements reach out! Have a nice week!
 [aws_configure]: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 [bash_variables]: https://askubuntu.com/a/53179
 [jq]: https://stedolan.github.io/jq/
+[digiNotar]: https://en.wikipedia.org/wiki/DigiNotar
