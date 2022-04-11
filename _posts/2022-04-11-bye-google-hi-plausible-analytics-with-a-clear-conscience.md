@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: /assets/images/alley1.jpg
+  overlay_image: /assets/images/plausible.jpg
 title: "Bye G***le, Hi Plausible - Analytics with a clear conscience"
 categories:
   - tech
