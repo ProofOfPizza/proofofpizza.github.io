@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+author_profile: true
 ---
 
 This is a blog for any sort of nerdery I am interested in. Mainly development related stuff: java, typescript, docker, aws, terraform etc. But other topics such as music theory or math might also come up... who knows ?
