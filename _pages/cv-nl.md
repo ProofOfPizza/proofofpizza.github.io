@@ -156,7 +156,7 @@ Fan van Linux, Vim, containers, exotische muziek en wiskunde!
 
 ## Ambities
 
-Het afgelopen periode (2 jaar) heb ik me voorbereid op een overstap naar Devops enhineer / fullstack development. Hiervoor heb ik cursussen gevolgd in onder meer Java, Typescript, Spring, Angular, NestJs, CSS en RxJs. Daarnaast ben ik erg geinteresseerd in cloud technologie en DevOps. Ik heb me dan ook verdiept in onderwerpen zoals Docker, Kubernetes, AWS, Terraform en Jenkins. Ik ben bezig met een aantal projecten in de praktijk, onder meer een samen met mijn collega's waar we samen werken aan een microservice applicatie. Een opdracht in een omgeving waar die zaken samen komen zou een mooie plaats zijn om bij te dragen met wat ik nu kan, en om verder te leren!
+De afgelopen periode (2 jaar) heb ik me voorbereid op een overstap naar Devops enhineer / fullstack development. Hiervoor heb ik cursussen gevolgd in onder meer Java, Typescript, Spring, Angular, NestJs, CSS en RxJs. Daarnaast ben ik erg geinteresseerd in cloud technologie en DevOps. Ik heb me dan ook verdiept in onderwerpen zoals Docker, Kubernetes, AWS, Terraform en Jenkins. Ik ben bezig met een aantal projecten in de praktijk, onder meer een samen met mijn collega's waar we samen werken aan een microservice applicatie. Een opdracht in een omgeving waar die zaken samen komen zou een mooie plaats zijn om bij te dragen met wat ik nu kan, en om verder te leren!
 
 ## {{ page.highlights.title }}
 {% for highlight in page.highlights.entries %}
