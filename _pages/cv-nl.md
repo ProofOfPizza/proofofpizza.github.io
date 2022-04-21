@@ -51,19 +51,23 @@ highlights:
       role: Devops - Development (Fullstack)
       client: InQuisitive (Intern)
       summary: Opzetten en onderhouden van de infrastructure as code met Terraform in AWS, zowel voor de app als voor Jenkins. Bouwen en onderhouden van de build en deploy pipeline in Jenkins (JcasC, JobDSL). Schrijven van de code voor de Angular frontend.
+      link: mosar
     - period: 2019 - 2022
       role: Testen - Testautomatisering
       client: Ministerie van Buitenlandse Zaken
       summary: Ketentesten en verbeteren en uitbreiden van de automatische test suites voor de UI en de Api's.
+      link: foreign-affairs
     - period: 2017 - 2019
       role: Testen - Testautomatisering
       client: Rabobank
       summary: Voornamelijk test automatisering met protractor en api tests met Java. Meewerken aan de migratie naar de cloud en zorg dragen voor monitoring en dashboarding met Splunk binnen ons team.
+      link: rabobank
 
 work_experience:
   title: Werkervaring
   entries:
     - client: Intern @ InQuisitive
+      link: mosar
       period: Oktober 2020 - Heden
       role: DevOps - Development
       knowledge: Typescript, Java, Spring, Angular,Terraform, CloudFormation, Jenkins, Docker, Git, Agile Scrum.
@@ -76,6 +80,7 @@ work_experience:
       results: Ik heb de infrastructure as code gebouwd en herbouwd. Eerst heb ik gebruik gemaakt van AWS CloudFormation en later ben ik omgeschakeld naar Terraform. Dit behelst zowel de modules als de projects/ workspaces (die gekoppeld zijn aan workspaces in Terraform Cloud) die deze modules gebruiken. Alle resources zoals VPCs, ECS Clusters, EC2 Servers, secrets, ECR repositories, rollen en policies voor zowel Jenkins als voor de app worden hier onderhouden. Daarnaast heb ik ook alle pipelines gebouwd in Jenkins. Gebruik makend van JcasC en JobDSL om zoveel mogelijk alles as code te hebben en best practices te volgen. De build pipelines worden getriggered bij het openen van een PR. Ze bouwen de artifacts, runnen de tests en uploaden een image, dat gebouwd wordt met Kaniko, naar AWS s3. De deploy pipeline haalt dit weer op en voert Terraform code uit om een ECS Task te runnen binnen het bestaande cluster.<br>Hiernaast heb ik alle frontend code geschreven inclusief HTML, CSS, animations, en tests. Voor het backend werk werk ik nauw samen met mijn collegas in de vorm van pair programming en code reviews.
 
     - client: Ministerie van Buitenlandse Zaken
+      link: foreign-affairs
       period: Maart 2019 - April 2022
       role: Testen - Testautomatisering - DevOps - Ketentesten
       knowledge: Agile, Scrum, DevOps, Testautomatisering, Java, Javascript, Typescript, Property Based Testen, Backend Testing, Frontend / Angular, Azure, Complex Chain, Codecept, Cypress
@@ -89,6 +94,7 @@ work_experience:
         - Pipelines (klein onderhoud)
       results: In deze opdracht heb ik me bezig gehouden met twee hoofdtaken. Enerzijds testautomatisering een impuls geven en anderzijds het opzetten en regisseren van de ketentest. Dit eerste heb ik gedaan door verbeteringen voor te stellen en uit te voeren voor de frontend e2e testen en anderzijds door integratie testen op te zettenwaarbij we op niveau van de api’s de functionaliteit testen. Voor de UI en e2e testen heb ik gewerkt aan het verbeteren en uitbreiden van de bestaande codecept (Javascript) testen en later aan het opzetten van Cypress icm Typescript. Bij de api tests heb ik ook property based testen geïntroduceerd om zo dekking te verhogen en specificaties te veralgemenen. Verder heb ik me bezig gehouden met het scherper krijgen van de acceptatie criteria om zo kwaliteit en testbaarheid in het hele proces en product te verbeteren. Het opzetten en uitvoeren van de ketentesten was een uitdaging vanwege de vele koppelingen met externe partijen in binnen en buitenland met elk hun eigen eisen en limieten naast onze eigen criteria.
     - client: Rabobank
+      link: rabobank
       period: April 2017 - December 2019
       role: Test - Testautomatisering - DevOps - Scrum Master
       knowledge: Agile, Scrum, Devops, Testautomatisering, Browser Testing, Splunk, Java, Javascript, Backend Testing
@@ -101,6 +107,7 @@ work_experience:
       results: De Rabobank is een organisatie waar heel snel veranderingen plaats vinden, zowel in de manier van werken als in het complexe technische landschap. We hebben een aantal legacy-systemen onder ons beheer gehad, waarvoor ik een geautomatiseerde regressie suite heb geschreven. Het frame dat ik daarvoor schreef is ook door andere collega’s, binnen en buiten het team, gebruikt.<br>Ook hebben we nieuwe software geschreven die volgens de nieuwere architectuur standaarden naar de cloud (PCF op Azure) gebracht is. Tevens heb ik voor de applicaties monitoring dashboards gemaakt in Splunk, om zo snel en goed inzicht te hebben. Kritisch denken, assertief comminiceren en samenwerken is hierbij van groot belang om zo fouten en risico’s te vermijden voordat de daadwerkelijke bouw begint.
 
     - client: Provincie Gelderland
+      link: gelderland
       period: April 2017 - April 2019
       role: Testen - Testautomatisering
       knowledge: Agile, Scrum, Testautomatisering, Chain Testing, Acceptance Testing, Migrations (Open Text and Sharepoint), Java, Selenium, Python
@@ -112,6 +119,7 @@ work_experience:
       results: Binnen de provincie zijn veel processen tegelijk bezig; het professionaliseren van het testen (waar men nu sinds een 2 jaar mee bezig is), onderhouden van oude systemen, ontwikkeling van nieuwe systememn en de overgang naar een regie- organisatie, waarbij alle IT geoutsourced wordt en de vraag om kwaliteitsbewaking des te groter. De uitdaging was erin om veel verschillende projecten en applicaties tegelijk te testen en in het oog te houden en tegelijkertijd wel echt in de diepte de systemen te kennen, die veelal legacy systemen zijn met (deels) ontbrekende documentatie. Ik heb mee mogen werken aan de projecten zelf, en ook aan de verbeterslag in het testproces waar het gaat om inzichtelijk maken van de verantwoordelijkheden, beschikbaarheid en beheer van omgevingen, en de mogelijkheden voor testautomatisering. Ook waar het de communicatie betreft, het samenbrengen van de ambtenaren met de ontwikkelteams en afstemmen van wensen en verwachtingen is hier een belangrijk deel van het werk geweest.
 
     - client: Homefashion Group
+      link: homefashion-group
       period: September 2016 - Februari 2017
       role: Testen
       knowledge: Jira, Trac, Youtrack, XML, Java, Selenium, Python, Exploratory Testing
@@ -124,6 +132,7 @@ work_experience:
       results: Bij de Homefashion Group was ik samen met twee andere testers verantwoordelijk voor het testen van de Webshop die vernieuwd werd, nieuwe webshops die er bij kwamen, en als enige had ik ook de taak om het legacy ERP systeem (progress) te testen. Vooral dit laatste was een mooie uitdaging! Vanwege de vernieuwingen in productlijnen, transportlijnen en verkoopkanalen werd er constant aan dit systeem gewerkt. De applicatie leren kennen en zinnige uitspraken kunnen doen over de risico’s van het gedane werk was niet eenvoudig, maar binnen de organisatie waar hoge tijdsdruk op lag wel heel belangrijk. <br>Voor de webshops heb ik een testframework gebouwd in Java (met selenium) waar we samen met een van de andere testers onze scenario’s in schreven.
 
     - client: Exact
+      link: exact
       period: Juli 2016 - Augustus 2016
       role: Testen
       knowledge: Testing, Testautomatisering, Team Foundation Server, C#, Selenium
@@ -151,12 +160,13 @@ Het afgelopen periode (2 jaar) heb ik me voorbereid op een overstap naar Devops 
 
 ## {{ page.highlights.title }}
 {% for highlight in page.highlights.entries %}
-### {{ highlight.period }}: {{ highlight.role }} @ {{ highlight.client }}
+### [{{ highlight.period }}: {{ highlight.role }} @ {{ highlight.client }}](#{{ highlight.link }})
 {{ highlight.summary }}
 {% endfor %}
 ## {{ page.work_experience.title }}
 {% for work_experience in page.work_experience.entries %}
 ### Client: {{ work_experience.client }}
+{: #{{work_experience.link}} }
 
 **Period:** {{ work_experience.period }} <br>
 **Role(s):** {{ work_experience.role }} <br>
