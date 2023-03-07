@@ -47,7 +47,17 @@ skills:
 highlights:
   title: Highlights
   entries:
-    - period: 2020 - Present
+    - period: 2022 - 2023
+      link: shipbuilder
+      role: Development / Devops
+      client: Shipbuilder
+      summary: Building the frontend (and extending some backend functionality) for a highly configurable project data management application. Technologies used include Typescript, React, AG Grid, Ant Design, NestJs, Docker, github actions.
+    - client: Adabtive
+      link: adabtive
+      period: December 2022 - Present
+      role: Co-Founder and Co-Director
+      summary: Since 2021 we have started making plans resulting in the official start of Adabtive in December 2022. It is the first steward owned software company in the Netherlands.
+    - period: 2020 - 2022
       link: mosar
       role: Devops - Development (Fullstack)
       client: InQuisitive (Internally)
@@ -66,9 +76,47 @@ highlights:
 work_experience:
   title: Work Experience
   entries:
+    - client: Shipbuilder
+      link: shipbuilder
+      period: June 2022 - March 2023
+      role: Development - Devops
+      knowledge: Typescript, React, Redux, React hooks, NestJs, unit testing, Github actions, Agile, Docker, Docker-compose, Neo4j (Graph database).
+      context: Shipbuilder builds an application that is highly configurable where the application can be configured together with clients. This includes data modeling, CRUD options, visualization, menu structure, pages, etc. The code deals with high abstractions and data transformations. The visualization in the frontend is done using Ant D component library and AG Grid.
+      tasks:
+        - Set up the frontend with React, Redux, Ant D, AG Grid
+        - Write the frontend code including custom hooks, persistence in browser and connections to the NestJs backend.
+        - Fix bugs and change fucntionalities in the NestJS backend
+        - Set up Docker and Docker compose for running the app.
+        - Set up (basic) pipelines in Github Actions for building and checking the code.
+        - Write unit tests and integration tests (Cypress).
+        - Partake in all scrum meetings, refinement and application-architecture decision making.
+      results: When I started the backend of the application was done for the better part, but the frontend had to be made from scratch. I set this up and wrote the most of the code for it. Together with one more developer we made a first version working. It had some tailor made functionality for a first client running some very large ship building projects.
+    - client: Adabtive
+      link: adabtive
+      period: December 2022 - Present
+      role: Co-Founder and Co-Director
+      knowledge: Shaping and directing of Adabtive with a technical focus
+      context: Since 2021 we have started making plans resulting in the official start of Adabtive in December 2022. It is the first steward owned software company in the Netherlands.
+      tasks:
+        - Set strategic goals and define plans and timelines
+        - HR management and Hiring of new developers
+        - Evaluate projects on technical and financial feasibility
+      results: Adabtive has started growing. Offering in house realization of software projects, integration and extension of existing software and consultancy services.
+    - client: Knab Bank
+      link: knab
+      period: May 2022 - August 2022
+      role: Devops / Testautomation
+      knowledge: AWS, Terraform, Azure Pipelines, C#, Agile, Angular, Typescript, Cucumber, Selenium
+      context: Knab is a bank with a focus on (small) business clients. Their offering is online only so the tecj is the core of their business. As a daughter company of Aegon, there was a migration ongoing for Aegon investments banking clients to Knab.
+      tasks:
+       - Instructing / teaching testautomation
+       - implementing / extending azure pipelines and Terraform configurations to spin up AWS spot instances and run the automated suites there
+       - Write test automation in C#
+       - Test features
+      results: Worked with different teams on different projects here. One where I was assigned to teach testers on Testautomation in order to raise the general level of testing and testautomation. Then when priorities shifted I was asked to help out in a team where we worked on integrating a number of existing investment clients from another bank, including their portals and accounts. And all the while I worked with Devops to implement some pipelines that ensured test servers be spun up temporarily for use with the automated tests.
     - client: Internally @ InQuisitive
       link: mosar
-      period: October 2020 - Present
+      period: October 2020 - 2022
       role: DevOps - Development
       knowledge: Typescript, Java, Spring, Angular,Terraform, CloudFormation, Jenkins, Docker, Git, Agile Scrum.
       context: Within InQuisitive we have teamed up in a small group to transition from testers to developers / DevOps Engineers. For this purpose we have been given time and support to do courses and and internal project. We are building a flashcards application named "Mosar". The main goal is to use as many relevant techniques as possible in to gain real world experience and solidify our learnings.
@@ -146,15 +194,15 @@ work_experience:
 
 ## Profile
 
-'Sharp, discerning, ambitious, collaborative'. Those are words that resonate well with me. I ask questions and dig deep in order to find possibilities for solutions. I regard challenges mainly as starting points to learn something new, and to continue growing in my work and as a person. I am always open to suggestions, I appreciate direct and clear communication and  an informal atmosphere. From my work as a tester and test automation engineer I gained a sharp eye for detail, and acute awareness of both risk and quality. The last few years I have extended my knowledge and experience in topics and techniques such as Java, Javascript, Typescript, Python, Haskell, AWS, Pipelines (Jenkins), containerization (Docker and Compose), DevOps, Agile and more. I am passionate about Linux, Vim, containers, exotic music and math!
+'Sharp, discerning, ambitious, collaborative'. Those are words that resonate well with me. I ask questions and dig deep in order to find possibilities for solutions. I regard challenges mainly as starting points to learn something new, and to continue growing in my work and as a person. I am always open to suggestions, I appreciate direct and clear communication and  an informal atmosphere. From my work as a tester and test automation engineer I gained a sharp eye for detail, and acute awareness of both risk and quality. The last few years I have extended my knowledge and working experience in topics and techniques such as Java, Javascript, Typescript, Python, Haskell, AWS, Pipelines (Jenkins), containerization (Docker and Compose), DevOps, Agile and more. I am passionate about Linux, Vim, containers, exotic music and mathematics!
 
 ## Ambitions
 
-The last period (about 2 years) I have prepared myself for a change of career into DevOps / Development. For this purpose I have done courses (mostly online, self paced) in Docker, Terraform, Jenkins, AWS, Java, Typescript, Angular, Spring, NestJs, (S)CSS, RxJs. I especially dug deeper into topics such as cloud computing and architectures, IAC with Terraform, pipelines and containers.
+After a period of transition I have now fully plunged into a career in development and DevOps. In December 2022 I co-founded Adabtive. My main focus has always remained the same: learn as much as I can. I want to grow further both as an engineer as well as co-director at Adabtive.
 
-Apart from some individual side projects, we do an internal project together with my colleagues. Here we build a microservice application running in AWS ECS with an RDS mysql DB, for which I do most of all the infrastructure, pipelines, as well as the frontend code, while my colleagues focus more on the backend part. I also tend to focus on the DevOps process elements a lot. I feel that the real results of safely delivering software quickly can only be achieved if the technical elements are embedded into a solid process.
+Topics that interest me a lot at the moment are Kubernetes, Pipelines and AWS. And aside from that of course just being a better developer everyday. Deliver features, collaborate with colleagues trying to get the best results from the start. Start with good thinking, and clear communication so we can build the software to support the exact business goals they require.
 
-For my next assignment I am looking to put these skills into practice and learn more!
+For a next assignment I hope to dive into new problems, get to know interesting people and keep on learning!
 
 ## {{ page.highlights.title }}
 {% for highlight in page.highlights.entries %}

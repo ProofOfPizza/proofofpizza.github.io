@@ -106,7 +106,7 @@ So far so good, time to make them available to us! For this we just use the olde
     <title>ExampleAngularRuntimeConfig</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   </head>
   <body>
     <app-root></app-root>
