@@ -49,7 +49,7 @@ highlights:
   entries:
     - period: 2022 - 2023
       link: shipbuilder
-      role: Development / Devops
+      role: Devops - Development (Fullstack)
       client: Shipbuilder
       summary: Building the frontend (and extending some backend functionality) for a highly configurable project data management application. Technologies used include Typescript, React, AG Grid, Ant Design, NestJs, Docker, github actions.
     - client: Adabtive
@@ -67,11 +67,6 @@ highlights:
       role: Test - Test Automation
       client: Ministry of Foreign Affairs
       summary: Chain testing and improving and extending the automated test suites for UI and Apis. Bits and pieces of frontend work, containerization and pipelines.
-    - period: 2017 - 2019
-      link: rabobank
-      role: Test - Test Automation
-      client: Rabobank
-      summary: Mainly writing automated test for UI (protractor) and Apis (java). Besides this joining in the effort of migration towards cloud (PCF), seting up and maintaining the dashboards and alerts in Splunk for our team. For about a year I was the scrum master in our team.
 
 work_experience:
   title: Work Experience
@@ -79,14 +74,14 @@ work_experience:
     - client: Shipbuilder
       link: shipbuilder
       period: June 2022 - March 2023
-      role: Development - Devops
+      role: Devops - Development (Fullstack)
       knowledge: Typescript, React, Redux, React hooks, NestJs, unit testing, Github actions, Agile, Docker, Docker-compose, Neo4j (Graph database).
       context: Shipbuilder builds an application that is highly configurable where the application can be configured together with clients. This includes data modeling, CRUD options, visualization, menu structure, pages, etc. The code deals with high abstractions and data transformations. The visualization in the frontend is done using Ant D component library and AG Grid.
       tasks:
         - Set up the frontend with React, Redux, Ant D, AG Grid
         - Write the frontend code including custom hooks, persistence in browser and connections to the NestJs backend.
-        - Fix bugs and change fucntionalities in the NestJS backend
-        - Set up Docker and Docker compose for running the app.
+        - Fix bugs and change functionalities in the NestJS backend
+        - Set up Docker and Docker compose for running the app in production as well as for development purposes.
         - Set up (basic) pipelines in Github Actions for building and checking the code.
         - Write unit tests and integration tests (Cypress).
         - Partake in all scrum meetings, refinement and application-architecture decision making.
@@ -105,12 +100,12 @@ work_experience:
     - client: Knab Bank
       link: knab
       period: May 2022 - August 2022
-      role: Devops / Testautomation
+      role: Devops / Test automation
       knowledge: AWS, Terraform, Azure Pipelines, C#, Agile, Angular, Typescript, Cucumber, Selenium
-      context: Knab is a bank with a focus on (small) business clients. Their offering is online only so the tecj is the core of their business. As a daughter company of Aegon, there was a migration ongoing for Aegon investments banking clients to Knab.
+      context: Knab is a bank with a focus on (small) business clients. Their offering is online only so technology is the core of their business. As a daughter company of Aegon, there was a migration ongoing for Aegon investments banking clients to Knab.
       tasks:
-       - Instructing / teaching testautomation
-       - implementing / extending azure pipelines and Terraform configurations to spin up AWS spot instances and run the automated suites there
+       - Instructing / teaching test automation
+       - Implementing / extending azure pipelines and Terraform configurations to spin up AWS spot instances and run the automated suites there
        - Write test automation in C#
        - Test features
       results: Worked with different teams on different projects here. One where I was assigned to teach testers on Testautomation in order to raise the general level of testing and testautomation. Then when priorities shifted I was asked to help out in a team where we worked on integrating a number of existing investment clients from another bank, including their portals and accounts. And all the while I worked with Devops to implement some pipelines that ensured test servers be spun up temporarily for use with the automated tests.

@@ -47,7 +47,17 @@ skills:
 highlights:
   title: Uitgelicht
   entries:
-    - period: 2020 - Heden
+    - period: 2022 - 2023
+      link: shipbuilder
+      role: Devops - Development (Fullstack)
+      client: Shipbuilder
+      summary: Het bouwen van de frontend (en uibreiden van backend) voor een zeer flexibel en configureerbare project data management applicatie. Gebruikte technologieen zijn onder meer Typescript, React, AG Grid, Ant Design, NestJs, Docker, github actions.
+    - client: Adabtive
+      link: adabtive
+      period: December 2022 - Heden
+      role: Co-Founder and Co-Director
+      summary: Sinds 2021 zijn we begonnen met de plannen het het werk om uiteindelijk in December 2022 officieel van start te gaan met Adabtive. Het is Nederlands eerste steward owned software bedrijf.
+    - period: 2020 - 2022
       role: Devops - Development (Fullstack)
       client: InQuisitive (Intern)
       summary: Opzetten en onderhouden van de infrastructure as code met Terraform in AWS, zowel voor de app als voor Jenkins. Bouwen en onderhouden van de build en deploy pipeline in Jenkins (JcasC, JobDSL). Schrijven van de code voor de Angular frontend.
@@ -57,18 +67,51 @@ highlights:
       client: Ministerie van Buitenlandse Zaken
       summary: Ketentesten en verbeteren en uitbreiden van de automatische test suites voor de UI en de Api's.
       link: foreign-affairs
-    - period: 2017 - 2019
-      role: Testen - Testautomatisering
-      client: Rabobank
-      summary: Voornamelijk test automatisering met protractor en api tests met Java. Meewerken aan de migratie naar de cloud en zorg dragen voor monitoring en dashboarding met Splunk binnen ons team.
-      link: rabobank
 
 work_experience:
   title: Werkervaring
   entries:
+    - client: Shipbuilder
+      link: shipbuilder
+      period: June 2022 - March 2023
+      role: Devops - Development (Fullstack)
+      knowledge: Typescript, React, Redux, React hooks, NestJs, unit testing, Github actions, Agile, Docker, Docker-compose, Neo4j (Graph database).
+      context: Shipbuilder maakt een applicatie die in hoge mate configurabel is. Samen met klanten wordt de data modellering gedaan, inclusief regels en validaties voor CRUD operaties, visualisaties, menu structuur, pagina's etc. De code regelt data transformaties en visualisaties op hoog abstractie niveau. De visualisaties worden gedaan met Ant D component library en AG Grid.
+      tasks:
+        - Opzetten van de  frontend met React, Redux, Ant D, AG Grid
+        - Frontend code schrijven inclusief custom hooks, persistentie in browser and verbindingen met de NestJs backend.
+        - Bugfixess and uitbreiden en aanpassen van  functionaliteiten in de NestJS backend
+        - Opzetten Docker en Docker compose om de app te runnen in productie en voor development doeleinden.
+        - Opzetten van (basic) pipelines in Github Actions voor build en kwaliteits checks van de code.
+        - Schrijven van unit testen and integratie testen (Cypress).
+        - Deelname aan alle scrum meetings, refinement and applicatie-architectuur besluit vorming.
+      results: Toen ik begon aan deze opdracht was de backend al voor een groot gedeelte klaar. De frontend heb ik vanaf niets opgebouwd. De meeste code hiervoor is van mijn hand. Samen met de andere developer (tevens PO), hebben we een eerste versie gemaakt van de applicatie. Hierin zat ook een aantal features die specifiek gebouwd waren voor een eerste klant die een aantal erg grote scheepsbouw projecten doet.
+    - client: Adabtive
+      link: adabtive
+      period: December 2022 - Heden
+      role: Co-Founder and Co-Director
+      knowledge: Vormgeven en leiding geven aan Adabtive met een focus op de techniek.
+      context: Sinds 2021 zijn we begonnen met de plannen het het werk om uiteindelijk in December 2022 officieel van start te gaan met Adabtive. Het is Nederlands eerste steward owned software bedrijf.
+      tasks:
+        - Het stellen van (strategische) doelen en tijdslijnen
+        - HR management en inhuur van nieuwe developers
+        - Evalueren van projecten en plannen op financiele en technische haalbaarheid
+      results: Adabtive is begonnen te groeien. We bieden diensten aan op het gebied van in house software development, integratie en uitbreiding van bestaande software en consultancy.
+    - client: Knab Bank
+      link: knab
+      period: Mei 2022 - Augustus 2022
+      role: Devops / Testautomatisering
+      knowledge: AWS, Terraform, Azure Pipelines, C#, Agile, Angular, Typescript, Cucumber, Selenium
+      context: Knab is een bank met een focus op (klein) zakelijke klanten. Hun aanbod is volledig digitaal dus de technologie is het hart van het berijf. Als dochteronderneming van Aegon was er een migratie traject voor klanten van investeringsproducten van Aegon naar Knab.
+      tasks:
+       - Instrueren testautomatisering
+       - Implementatie en uitbreining van azure pipelines and Terraform configuraties om AWS spot instances op de spinnen en de test suites daar te draaien.
+       - Schrijven van test automation code in C#
+       - Testen van features
+      results: Ik heb hier met verschillende teams en disciplines gewerkt. Een was het helpen van andere testers om testautomatisering te leren. Toen de prioriteiten verschoven ben ik gevraagd om te helpen in een team waar gewerkt werd aan de integratie van externe klanten (Aegon) met hun investeringsproducten naar Knab, inclusief dashboards etc. Tegelijkertijd werkte k met Devops aan pipelines in Azure / AWS om volledig automatisch spot instances beschikbaar te hebben om testen op te draaien.
     - client: Intern @ InQuisitive
       link: mosar
-      period: Oktober 2020 - Heden
+      period: Oktober 2020 - 2022
       role: DevOps - Development
       knowledge: Typescript, Java, Spring, Angular,Terraform, CloudFormation, Jenkins, Docker, Git, Agile Scrum.
       context: Binnen Inquisitive zijn we gestart met een kleine groep om ons om te scholen tot developer / DevOps engineer. Hiervoor hebben we tijd en mogelijkheden gekregen om cursussen te volgen en samen een project te doen. We bouwen een applicatie “Mosar” voor flashcards. De opzet is om zoveel mogelijk relevante technieken te gebruiken en er praktische ervaring mee op te doen en het leren te bekrachtigen.
@@ -149,14 +192,18 @@ work_experience:
 
 ## Profiel
 
-‘Scherp, kritisch, gedreven en samenwerken’ zijn woorden waar ik me in kan vinden. Ik stel vragen en onderzoek mogelijkheden om tot oplossingen te komen. Uitdagingen zie ik vooral als aanknopingslpunten om weer iets nieuws te leren en verder te groeien in mijn vak en als mens. Ik sta altijd open voor suggesties, houd van duidelijke communicatie en een informele sfeer. <br>Vanuit mijn werk als testautomatiseerder heb ik een oog voor detail ontwikkeld en ben ik me bewust van op zowel risicos en kwaliteit. <br>Ik heb me de laatste jaren verdiept in allerhande technieken en talen waaronder: Docker, Terraform, Jenkins, AWS, Java, Typescript, Angular, Spring, NestJs, (S)CSS, RxJs. Ik ben vooral dieper in gegaan op DevOps, Cloud computing architectuur, Containerization en Pipelines.
+‘Scherp, kritisch, gedreven en samenwerken’ zijn woorden waar ik me in kan vinden. Ik stel vragen en onderzoek mogelijkheden om tot oplossingen te komen. Uitdagingen zie ik vooral als aanknopingslpunten om weer iets nieuws te leren en verder te groeien in mijn vak en als mens. Ik sta altijd open voor suggesties, houd van duidelijke communicatie en een informele sfeer. <br>Vanuit mijn werk als testautomatiseerder heb ik een oog voor detail ontwikkeld en ben ik me bewust van op zowel risicos en kwaliteit. Deze focus op kwaliteit neem ik mee in mijn werk als developer.<br>Ik heb me de laatste jaren verder verdiept in allerhande technieken en talen waaronder: Docker, Terraform, Jenkins, AWS, Java, Typescript, Angular, Spring, NestJs, (S)CSS, RxJs. Ik ben vooral dieper in gegaan op DevOps, Cloud computing architectuur, Containerization en Pipelines.
 
 Fan van Linux, Vim, containers, exotische muziek en wiskunde!
 
 
 ## Ambities
 
-De afgelopen periode (2 jaar) heb ik me voorbereid op een overstap naar Devops enhineer / fullstack development. Hiervoor heb ik cursussen gevolgd in onder meer Java, Typescript, Spring, Angular, NestJs, CSS en RxJs. Daarnaast ben ik erg geinteresseerd in cloud technologie en DevOps. Ik heb me dan ook verdiept in onderwerpen zoals Docker, Kubernetes, AWS, Terraform en Jenkins. Ik ben bezig met een aantal projecten in de praktijk, onder meer een samen met mijn collega's waar we samen werken aan een microservice applicatie. Een opdracht in een omgeving waar die zaken samen komen zou een mooie plaats zijn om bij te dragen met wat ik nu kan, en om verder te leren!
+Na een transitie periode heb ik me nu volledig gestort op mijn cariere in development en DevOps. In december 2022 ben ik samen met mijn partners Adabtive begonnen. Mijn hoofd focus is hetzelfde gebleven: Zo veel mogelijk leren als ik kan. Ik wil graag verder groeien in zowel mijn rol binnen Adabtive als in mijn werk als developer / devops.
+
+  Onderwerpen die me momenteel bezig houden zijn Kubernetes, Pipelines en AWS. En daarnaast natuurlijk gewoon zorgen dat ik elke dag een betere developer ben. Features opleveren, samewerken met collega’s om vanaf de start te werken aan de beste resultaten: Goed denkwerk en duidelijke communicatie om op die manier software te bouwen die precies die business doelen ondersteunt die vereist is.
+
+Voor een volgende opdracht hoop ik in nieuwe problemen te duiken, interessante mensen te ontmoeten en te blijven leren!
 
 ## {{ page.highlights.title }}
 {% for highlight in page.highlights.entries %}
