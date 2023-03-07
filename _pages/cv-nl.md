@@ -56,7 +56,7 @@ highlights:
       link: adabtive
       period: December 2022 - Heden
       role: Co-Founder and Co-Director
-      summary: Sinds 2021 zijn we begonnen met de plannen het het werk om uiteindelijk in December 2022 officieel van start te gaan met Adabtive. Het is Nederlands eerste steward owned software bedrijf.
+      summary: Sinds 2021 zijn we begonnen met de plannen en het werk om uiteindelijk in December 2022 officieel van start te gaan met Adabtive. Het is Nederlands eerste steward owned software bedrijf.
     - period: 2020 - 2022
       role: Devops - Development (Fullstack)
       client: InQuisitive (Intern)
@@ -80,7 +80,7 @@ work_experience:
       tasks:
         - Opzetten van de  frontend met React, Redux, Ant D, AG Grid
         - Frontend code schrijven inclusief custom hooks, persistentie in browser and verbindingen met de NestJs backend.
-        - Bugfixess and uitbreiden en aanpassen van  functionaliteiten in de NestJS backend
+        - Bugfixes and uitbreiden en aanpassen van  functionaliteiten in de NestJS backend
         - Opzetten Docker en Docker compose om de app te runnen in productie en voor development doeleinden.
         - Opzetten van (basic) pipelines in Github Actions voor build en kwaliteits checks van de code.
         - Schrijven van unit testen and integratie testen (Cypress).
