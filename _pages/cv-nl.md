@@ -73,7 +73,7 @@ work_experience:
   entries:
     - client: Shipbuilder
       link: shipbuilder
-      period: June 2022 - March 2023
+      period: Juni 2022 - Maart 2023
       role: Devops - Development (Fullstack)
       knowledge: Typescript, React, Redux, React hooks, NestJs, unit testing, Github actions, Agile, Docker, Docker-compose, Neo4j (Graph database).
       context: Shipbuilder maakt een applicatie die in hoge mate configurabel is. Samen met klanten wordt de data modellering gedaan, inclusief regels en validaties voor CRUD operaties, visualisaties, menu structuur, pagina's etc. De code regelt data transformaties en visualisaties op hoog abstractie niveau. De visualisaties worden gedaan met Ant D component library en AG Grid.
@@ -143,7 +143,7 @@ work_experience:
       knowledge: Agile, Scrum, Devops, Testautomatisering, Browser Testing, Splunk, Java, Javascript, Backend Testing
       context: Ons team heeft zich bezig gehouden met applicaties die de marketeers in staat stellen om uitingen naar klanten zoveel mogelijk te personaliseren.
       tasks:
-        - Testrn
+        - Testen
         - Testautomatisering
         - DevOps
         - Scrum Master
