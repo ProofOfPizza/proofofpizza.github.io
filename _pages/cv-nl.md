@@ -62,11 +62,6 @@ highlights:
       client: InQuisitive (Intern)
       summary: Opzetten en onderhouden van de infrastructure as code met Terraform in AWS, zowel voor de app als voor Jenkins. Bouwen en onderhouden van de build en deploy pipeline in Jenkins (JcasC, JobDSL). Schrijven van de code voor de Angular frontend.
       link: mosar
-    - period: 2019 - 2022
-      role: Testen - Testautomatisering
-      client: Ministerie van Buitenlandse Zaken
-      summary: Ketentesten en verbeteren en uitbreiden van de automatische test suites voor de UI en de Api's.
-      link: foreign-affairs
 
 work_experience:
   title: Werkervaring
